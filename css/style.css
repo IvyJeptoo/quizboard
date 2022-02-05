@@ -1,0 +1,49 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+.knowkenya{
+
+    background-image: url(/images/kanairo.jpg);
+    height: 100%;
+    
+}
+.cencus img{
+    height: 150px;
+
+}
+.export img{
+    height: 150px;
+}
+.lakes img {
+    height: 150px;
+}
+.counties img{
+    height: 150px;
+}
+.park img{
+    height: 150px;
+}
+.independence img{
+    height: 150px;
+}
+.partone{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.parttwo{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.partthree{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
+}
+   
