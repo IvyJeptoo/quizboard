@@ -51,17 +51,18 @@
     justify-content: space-evenly;
 
 }
-button{
+
+   
+#button{
+   
+    margin-left: 45%;
+    margin-top: 40px;
     padding: 20px;
     background-color: #3D642D ;
    border-radius: 10%;
    font-weight: 700;
 }
-.button{
-   
-    margin-left: 45%;
-    margin-top: 40px;
 
-}
+
 
    
