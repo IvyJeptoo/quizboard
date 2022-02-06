@@ -20,12 +20,12 @@ function myScoreChecker(){
   
 
   if (score >= 5) {
-        answer.textContent="CONGRATS! A TRUE PATRIOT! Your score is "+ score/6*100 + "% "
+        answer.textContent="CONGRATS! A TRUE PATRIOT! Your score is "+ Math.trunc(score/6*100) + "% "
     
           }else if(score >= 3){
-              answer.textContent="GOOD! Your score is"+ score/6*100 + "%. Fair amount of information."
+              answer.textContent="GOOD! Your score is"+ Math.trunc(score/6*100) + "%. Fair amount of information."
           }else{
-              answer.textContent="PULL UP! Your score is"+ score/6*100 + "%. So much much you need to know about Kenya!"
+              answer.textContent="PULL UP! Your score is"+ Matth.trunc(score/6*100) + "%. So much much you need to know about Kenya!"
           }
   
   }
