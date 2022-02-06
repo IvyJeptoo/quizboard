@@ -5,30 +5,35 @@
     font-family: 'PT Serif', serif;
 }
 
-.knowkenya{
+/* .knowkenya{
 
     background-image: url(/images/kanairo.jpg);
     height: 100%;
     
-}
+} */
 .cencus img{
     height: 150px;
-
+    padding: 15px;
 }
 .export img{
     height: 150px;
+    padding: 15px;
 }
 .lakes img {
     height: 150px;
+    padding: 15px;
 }
 .counties img{
     height: 150px;
+    padding: 15px;
 }
 .park img{
     height: 150px;
+    padding: 15px;
 }
 .independence img{
     height: 150px;
+    padding: 15px;
 }
 .partone{
     display: flex;
@@ -44,6 +49,18 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-evenly;
+
+}
+button{
+    padding: 20px;
+    background-color: #3D642D ;
+   border-radius: 10%;
+   font-weight: 700;
+}
+.button{
+   
+    margin-left: 45%;
+    margin-top: 40px;
 
 }
    
