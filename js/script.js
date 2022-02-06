@@ -16,7 +16,8 @@ function myScoreChecker(){
   if(rightAnswer5==="Tsavo NP"){score ++};
   if(rightAnswer6==="1963"){score ++};
 
-  questions.style.display = "none"
+  all.style.display = "none"
+
   
 
   if (score >= 5) {
