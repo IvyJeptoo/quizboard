@@ -14,8 +14,8 @@
 <body>
     
 
-<section>
-    <form name="questions" id="questions" onsubmit="myScoreChecker()">
+
+    <form name="questions" id="questions" >
         <div class="partone">
     <div class="rowone">
         <div class="cencus">
@@ -24,10 +24,10 @@
          
         <p>1.After how many years is cencus conducted?</p>
         
-        <p><input type="radio" name="quiz1" value="10">10 years</p>
-        <p><input type="radio" name="quiz1" value="15">15 years</p>
-        <p><input type="radio" name="quiz1" value="5">5 years</p> 
-        <p><input type="radio" name="quiz1" value="20">20 years</p>
+        <p><input type="radio" name="quiz1" value="10 years">10 years</p>
+        <p><input type="radio" name="quiz1" value="15 years">15 years</p>
+        <p><input type="radio" name="quiz1" value="5 years">5 years</p> 
+        <p><input type="radio" name="quiz1" value="20 years">20 years</p>
     </div>
     <div class="rowtwo">
     <div class="export">
@@ -98,11 +98,12 @@
     </div>
     </div>
 <div class="button">
-    <button type="submit" id="button" >Submit</button>
+    <!-- <button type="submit" id="button" >Submit</button> -->
+    <input type="button" value="submit" id="button" onclick="myScoreChecker()">
 </div>
 </form>
-<p id="results"></p>
-</section>
+<p id="answer"></p>
+
   <script src="js/script.js"></script>
 </body>
 </html>
