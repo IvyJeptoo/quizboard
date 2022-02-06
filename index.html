@@ -12,29 +12,10 @@
     <title>Kenya quiz</title>
 </head>
 <body>
-    <!-- <section>
-        <div class="knowkenya">
-        <h1>
-            How well do you know Kenya?
-        </h1>
-        <h3>
-            Think you know so much about Kenya?
-        </h3>
-        <div class="maybe">
-        <h4>
-            Maybe you can name all the 47 counties, name all the presidents?
-        </h4>
-    </div>
-        <h3>
-         Test your knowledge with some fun quiz...
-        </h2>
-    </div>
     
-    </section> -->
-    
-    <!-- questions section -->
+
 <section>
-    <form name="questions">
+    <form name="questions" id="questions" onsubmit="myScoreChecker()">
         <div class="partone">
     <div class="rowone">
         <div class="cencus">
@@ -98,7 +79,7 @@
             <p><input type="radio" name="quiz5" value="Maasai Mara NP">Maasai Mara NP</p>
             <p><input type="radio" name="quiz5" value="Nairobi NP">Nairobi NP</p>
             <p><input type="radio" name="quiz5" value="Amboseli NP">Amboseli NP</p>
-            <p><input type="radio" name="quiz5" value="Aberdare NP">Aberdare NP</p>
+            <p><input type="radio" name="quiz5" value="Tsavo NP">Tsavo NP</p>
         </div>
     </div>
        <div class="rowfive">
@@ -117,10 +98,11 @@
     </div>
     </div>
 <div class="button">
-    <button type="submit">Submit</button>
+    <button type="submit" id="button" >Submit</button>
 </div>
 </form>
+<p id="results"></p>
 </section>
-  
+  <script src="js/script.js"></script>
 </body>
 </html>
